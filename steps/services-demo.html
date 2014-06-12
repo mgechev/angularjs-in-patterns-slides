@@ -1,0 +1,22 @@
+<h2>Services Example</h2>
+
+<div class="small">
+  <pre lang="javascript">
+  myModule.service('Developer', function () {
+    this.name = 'Foo';
+    this.motherLanguage = 'JavaScript';
+    this.live = function () {
+      while (true) {
+        this.code();
+      }
+    };
+  });
+  </pre>
+
+  <pre lang="JavaScript">
+  function MyCtrl(developer) {
+    var developer = new Developer();
+    developer.live();
+  }
+  </pre>
+</pre>

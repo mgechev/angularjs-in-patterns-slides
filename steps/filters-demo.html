@@ -1,0 +1,21 @@
+<h2>Filters Example</h2>
+
+<div class="small">
+  <pre lang="javascript">
+    myModule.filter('uppercase', function () {
+      return function (str) {
+        return (str || '').toUpperCase();
+      };
+    });
+  </pre>
+  <br>
+  <pre lang="html">
+    &#x3C;div&#x3E;{{ name | uppercase }}&#x3C;/div&#x3E;
+  </pre>
+  <br>
+  <pre lang="javascript">
+    function MyCtrl(uppercaseFilter) {
+      $scope.name = uppercaseFilter('foo'); //FOO
+    }
+  </pre>
+</div>
