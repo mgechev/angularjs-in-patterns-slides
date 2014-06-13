@@ -1,0 +1,14 @@
+<h3>Chain of Responsibilities AngularJS</h3>
+
+<div class="small">
+ In an AngularJS application form a hierarchy known as the scope chain.
+</div>
+<div class="small">
+  When $emit or $broadcast are called we can think of the scope chain as event bus, or even more accurately chain of responsibilities. Once the event is triggered it is emitted downwards or upwards (depending on the method, which was called). Each subsequent scope may:
+  <ul>
+    <li>Handle the event and pass it to the next scope in the chain</li>
+    <li>Handle the event and stop its propagation</li>
+    <li>Pass the event to the next scope in the chain without handling it</li>
+    <li>Stop the event propagation without handling it</li>
+  </ul>
+</div>

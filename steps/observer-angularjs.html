@@ -1,1 +1,27 @@
 <h2>Observer AngularJS</h2>
+
+<p class="small">
+In JavaScript we have first-class functions, which means that we can pass function instead of observer instances.
+</p>
+
+<p class="small">
+  In the JavaScript world this pattern is better known as publish/subscribe.
+</p>
+
+<br>
+
+<div class="small">
+  <pre lang="JavaScript">
+  //Subscribe to event
+  function ExampleCtrl($scope) {
+    $scope.$on('event-name', function handler() {
+      //body
+    });
+  }
+
+  //Publish event
+  function ExampleCtrl($scope) {
+    $scope.$emit('event-name', { foo: 'bar' });
+  }
+  </pre>
+</div>

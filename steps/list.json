@@ -460,5 +460,61 @@
             "rotate-y": 0,
             "rotate-z": 90
         }
+    },
+    {
+        "uri": "chain-of-responsibilities.html",
+        "id": "chain-of-responsibilities",
+        "class": "step",
+        "data": {
+            "x": 99000,
+            "y": 0,
+            "z": 0,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
+    },
+    {
+        "uri": "chain-of-responsibilities-angularjs.html",
+        "id": "chain-of-responsibilities-angularjs",
+        "class": "step",
+        "data": {
+            "x": 102000,
+            "y": 0,
+            "z": 0,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
+    },
+    {
+        "uri": "controller-patterns.html",
+        "id": "controller-patterns",
+        "class": "step",
+        "data": {
+            "x": 105000,
+            "y": 0,
+            "z": 0,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
+    },
+    {
+        "uri": "page-controller.html",
+        "id": "page-controller",
+        "class": "step",
+        "data": {
+            "x": 108000,
+            "y": 0,
+            "z": 0,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
     }
 ]
