@@ -544,5 +544,47 @@
             "rotate-y": 0,
             "rotate-z": 90
         }
+    },
+    {
+        "uri": "module-pattern.html",
+        "id": "module-pattern",
+        "class": "step",
+        "data": {
+            "x": 117000,
+            "y": 0,
+            "z": 0,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
+    },
+    {
+        "uri": "module-pattern-2.html",
+        "id": "module-pattern-2",
+        "class": "step",
+        "data": {
+            "x": 120000,
+            "y": 0,
+            "z": 0,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
+    },
+    {
+        "uri": "module-pattern-angularjs.html",
+        "id": "module-pattern-angularjs",
+        "class": "step",
+        "data": {
+            "x": 123000,
+            "y": 0,
+            "z": 0,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
     }
 ]

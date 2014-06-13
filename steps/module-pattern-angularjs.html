@@ -1,0 +1,19 @@
+<h3>Module Pattern AngularJS</h3>
+
+<div class="small">
+  <pre lang="javascript">
+  app.factory('foo', function () {
+    function privateMember() {
+      //body...
+    }
+    function publicMember() {
+      //body...
+      privateMember();
+      //body
+    }
+    return {
+      publicMember: publicMember
+    };
+  });
+  </pre>
+</div>

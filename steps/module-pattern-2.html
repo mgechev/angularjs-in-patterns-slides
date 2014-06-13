@@ -1,0 +1,23 @@
+<h2>Module Pattern</h2>
+
+<div class="small">
+  <pre lang="javascript">
+  var Page = (function () {
+    var title;
+
+    function setTitle(t) {
+      document.title = t;
+      title = t;
+    }
+
+    function getTitle() {
+      return title;
+    }
+
+    return {
+      setTitle: setTitle,
+      getTitle: getTitle
+    };
+  }());
+  </pre>
+</div>
