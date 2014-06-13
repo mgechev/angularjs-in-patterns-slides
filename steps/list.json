@@ -586,5 +586,61 @@
             "rotate-y": 0,
             "rotate-z": 90
         }
+    },
+    {
+        "uri": "data-mapper.html",
+        "id": "data-mapper",
+        "class": "step",
+        "data": {
+            "x": 126000,
+            "y": 0,
+            "z": 0,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
+    },
+    {
+        "uri": "data-mapper-angularjs.html",
+        "id": "data-mapper-angularjs",
+        "class": "step",
+        "data": {
+            "x": 129000,
+            "y": 0,
+            "z": 0,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
+    },
+    {
+        "uri": "data-mapper-angularjs-2.html",
+        "id": "data-mapper-angularjs-2",
+        "class": "step",
+        "data": {
+            "x": 132000,
+            "y": 0,
+            "z": 0,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
+    },
+    {
+        "uri": "thank.html",
+        "id": "thank",
+        "class": "step",
+        "data": {
+            "x": 135000,
+            "y": 0,
+            "z": 0,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
     }
 ]
