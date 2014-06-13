@@ -1,0 +1,14 @@
+<h2>Active Record NG</h2>
+
+<pre lang="javascript">
+var User = $resource('/users/:id'),
+    user = new User({
+      name: 'foo',
+      age : 42
+    });
+
+user.$save();
+
+User.get({ userid: userid });
+</pre>
+

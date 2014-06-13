@@ -1,0 +1,19 @@
+<h2>Factory Method NG</h2>
+
+<pre lang="javascript" class="small">
+myModule.config(function ($provide) {
+  $provide.provider('foo', function () {
+    var baz = 42;
+    return {
+      //Factory method
+      $get: function (bar) {
+        var baz = bar.baz();
+        return {
+          baz: baz
+        };
+      }
+    };
+  });
+});
+</pre>
+

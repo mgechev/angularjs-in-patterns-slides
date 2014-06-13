@@ -1,0 +1,24 @@
+<h2>Interpreter AngularJS</h2>
+
+<p class="small">
+  AngularJS has its own interpreter of a DSL (modified subset of JavaScript), for expressions, which are embeddable in the partials.
+</p>
+<div class="small">
+  <br>
+  <pre lang="JavaScript">
+  (foo) ? bar : baz | toUpperCase
+  </pre>
+
+  <pre lang="javascript">
+  //Responsible for converting given string into tokens
+  var Lexer;
+  //Responsible for parsing the tokens and evaluating the expression
+  var Parser;
+
+  var OPERATORS = {
+    '%':function(self, locals, a,b){return a(self, locals)%b(self, locals);},
+    '^':function(self, locals, a,b){return a(self, locals)^b(self, locals);},
+    //...
+  };
+  </pre>
+</div>

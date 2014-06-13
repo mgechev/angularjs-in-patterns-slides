@@ -21,6 +21,14 @@ pre {
   font-size: 0.7em;
 }
 
+ul {
+  margin-left: 50px;
+}
+
+li {
+  list-style-type: disc;
+}
+
 #twitter-widget-0 {
   width: 100% !important;
 }

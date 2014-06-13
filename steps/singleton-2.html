@@ -1,0 +1,18 @@
+<h3>Singleton in AngularJS</h3>
+<br>
+
+<blockquote class="blockquote">
+<ul>
+  <li>Takes its name and makes a lookup at a hash map, which is defined into a lexical closure (so it has a private visibility).</li>
+  <li>If the dependency exists AngularJS pass it as parameter to the component, which requires it.</li>
+  <li>
+    If the dependency does not exists:
+    <ul>
+      <li>AngularJS instantiate it by calling the factory method of its provider (i.e. $get).</li>
+      <li>AngularJS caches it inside the hash map mentioned above.</li>
+      <li>AngularJS passes it as parameter to the component, which requires it.</li>
+    </ul>
+  </li>
+  <li>AngularJS passes it as parameter to the component, which requires it.</li>
+</ul>
+</blockquote>

@@ -1,0 +1,27 @@
+<h2>Decorator AngularJS</h2>
+
+<div class="small">
+  <pre lang="javascript">
+myModule.factory('foo', function () {
+  return {
+    bar: function () {
+      console.log('I\'m bar');
+    },
+    baz: function () {
+      console.log('I\'m baz');
+    }
+  };
+});
+
+myModule.config(function ($provide) {
+  $provide.decorator('foo', function ($delegate) {
+    var barBackup = $delegate.bar;
+    $delegate.bar = function () {
+      console.log('Decorated');
+      barBackup.apply($delegate, arguments);
+    };
+    return $delegate;
+  });
+});
+  </pre>
+</div>

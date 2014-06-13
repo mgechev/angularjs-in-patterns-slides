@@ -236,5 +236,229 @@
             "rotate-y": 0,
             "rotate-z": 90
         }
+    },
+    {
+        "uri": "angularjs-in-patterns.html",
+        "id": "angularjs-in-patterns",
+        "class": "step",
+        "data": {
+            "x": 51000,
+            "y": 0,
+            "z": 0,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
+    },
+    {
+        "uri": "services-patterns.html",
+        "id": "services-patterns",
+        "class": "step",
+        "data": {
+            "x": 54000,
+            "y": 0,
+            "z": 0,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
+    },
+    {
+        "uri": "singleton.html",
+        "id": "singleton",
+        "class": "step",
+        "data": {
+            "x": 57000,
+            "y": 0,
+            "z": 0,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
+    },
+    {
+        "uri": "singleton-2.html",
+        "id": "singleton-2",
+        "class": "step",
+        "data": {
+            "x": 60000,
+            "y": 0,
+            "z": 0,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
+    },
+    {
+        "uri": "factory-method.html",
+        "id": "factory-method",
+        "class": "step",
+        "data": {
+            "x": 63000,
+            "y": 0,
+            "z": 0,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
+    },
+    {
+        "uri": "factory-method-angularjs.html",
+        "id": "factory-method-angularjs",
+        "class": "step",
+        "data": {
+            "x": 66000,
+            "y": 0,
+            "z": 0,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
+    },
+    {
+        "uri": "decorator.html",
+        "id": "decorator",
+        "class": "step",
+        "data": {
+            "x": 69000,
+            "y": 0,
+            "z": 0,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
+    },
+    {
+        "uri": "decorator-angularjs.html",
+        "id": "decorator-angularjs",
+        "class": "step",
+        "data": {
+            "x": 72000,
+            "y": 0,
+            "z": 0,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
+    },
+    {
+        "uri": "active-record.html",
+        "id": "active-record",
+        "class": "step",
+        "data": {
+            "x": 75000,
+            "y": 0,
+            "z": 0,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
+    },
+    {
+        "uri": "active-record-angularjs.html",
+        "id": "active-record-angularjs",
+        "class": "step",
+        "data": {
+            "x": 78000,
+            "y": 0,
+            "z": 0,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
+    },
+    {
+        "uri": "directives-partials.html",
+        "id": "directives-partials",
+        "class": "step",
+        "data": {
+            "x": 81000,
+            "y": 0,
+            "z": 0,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
+    },
+    {
+        "uri": "interpreter.html",
+        "id": "interpreter",
+        "class": "step",
+        "data": {
+            "x": 84000,
+            "y": 0,
+            "z": 0,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
+    },
+    {
+        "uri": "interpreter-angularjs.html",
+        "id": "interpreter-angularjs",
+        "class": "step",
+        "data": {
+            "x": 87000,
+            "y": 0,
+            "z": 0,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
+    },
+    {
+        "uri": "scope-patterns.html",
+        "id": "scope-patterns",
+        "class": "step",
+        "data": {
+            "x": 90000,
+            "y": 0,
+            "z": 0,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
+    },
+    {
+        "uri": "observer.html",
+        "id": "observer",
+        "class": "step",
+        "data": {
+            "x": 93000,
+            "y": 0,
+            "z": 0,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
+    },
+    {
+        "uri": "observer-angularjs.html",
+        "id": "observer-angularjs",
+        "class": "step",
+        "data": {
+            "x": 96000,
+            "y": 0,
+            "z": 0,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
     }
 ]
