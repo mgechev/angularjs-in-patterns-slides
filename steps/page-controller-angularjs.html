@@ -1,16 +1,13 @@
 <h3>Page Controller AngularJS</h3>
 
 <div class="small">
-  <pre lang="html">
-  &#x3C;body ng-controller=&#x22;MainCtrl&#x22;&#x3E;
+  <pre lang="html"><code>&#x3C;body ng-controller=&#x22;MainCtrl&#x22;&#x3E;
     &#x3C;div ng-controller=&#x22;ChildCtrl&#x22;&#x3E;
       &#x3C;span&#x3E;{{user.name}}&#x3C;/span&#x3E;
       &#x3C;button ng-click=&#x22;click()&#x22;&#x3E;Click&#x3C;/button&#x3E;
     &#x3C;/div&#x3E;
-  &#x3C;/body&#x3E;
-  </pre>
-  <pre lang="javascript">
-  function MainCtrl($scope, $location, User) {
+  &#x3C;/body&#x3E;</code></pre>
+  <pre lang="javascript"><code>function MainCtrl($scope, $location, User) {
     if (!User.isAuthenticated()) {
       $location.path('/unauthenticated');
     }
@@ -21,6 +18,5 @@
       alert('You clicked me!');
     };
     $scope.user = User.get(0);
-  }
-  </pre>
+  }</code></pre>
 </div>

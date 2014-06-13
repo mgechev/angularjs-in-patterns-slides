@@ -1,8 +1,7 @@
 <h2>Services Example</h2>
 
 <div class="small">
-  <pre lang="javascript">
-  myModule.service('Developer', function () {
+  <pre lang="javascript"><code>myModule.service('Developer', function () {
     this.name = 'Foo';
     this.motherLanguage = 'JavaScript';
     this.live = function () {
@@ -10,13 +9,10 @@
         this.code();
       }
     };
-  });
-  </pre>
+  });</code></pre>
 
-  <pre lang="JavaScript">
-  function MyCtrl(developer) {
+  <pre lang="JavaScript"><code>function MyCtrl(developer) {
     var developer = new Developer();
     developer.live();
-  }
-  </pre>
-</pre>
+  }</code></pre>
+</div>

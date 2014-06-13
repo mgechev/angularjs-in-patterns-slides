@@ -5,12 +5,9 @@
 </p>
 <div class="small">
   <br>
-  <pre lang="JavaScript">
-  (foo) ? bar : baz | toUpperCase
-  </pre>
+  <pre lang="JavaScript"><code>(foo) ? bar : baz | toUpperCase</code></pre>
 
-  <pre lang="javascript">
-  //Responsible for converting given string into tokens
+  <pre lang="javascript"><code>//Responsible for converting given string into tokens
   var Lexer;
   //Responsible for parsing the tokens and evaluating the expression
   var Parser;
@@ -19,6 +16,5 @@
     '%':function(self, locals, a,b){return a(self, locals)%b(self, locals);},
     '^':function(self, locals, a,b){return a(self, locals)^b(self, locals);},
     //...
-  };
-  </pre>
+  };</code></pre>
 </div>
