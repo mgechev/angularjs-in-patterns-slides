@@ -8,18 +8,16 @@ In JavaScript we have first-class functions, which means that we can pass functi
   In the JavaScript world this pattern is better known as publish/subscribe.
 </p>
 
-<br>
-
 <div class="small">
   <pre lang="JavaScript"><code>//Subscribe to event
-  function ExampleCtrl($scope) {
-    $scope.$on('event-name', function handler() {
-      //body
-    });
-  }
+function ExampleCtrl($scope) {
+  $scope.$on('event-name', function handler() {
+    //body
+  });
+}
 
-  //Publish event
-  function ExampleCtrl($scope) {
-    $scope.$emit('event-name', { foo: 'bar' });
-  }</code></pre>
+//Publish event
+function ExampleCtrl($scope) {
+  $scope.$emit('event-name', { foo: 'bar' });
+}</code></pre>
 </div>

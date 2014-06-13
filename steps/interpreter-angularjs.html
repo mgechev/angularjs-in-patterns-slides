@@ -6,15 +6,15 @@
 <div class="small">
   <br>
   <pre lang="JavaScript"><code>(foo) ? bar : baz | toUpperCase</code></pre>
-
+<br>
   <pre lang="javascript"><code>//Responsible for converting given string into tokens
-  var Lexer;
-  //Responsible for parsing the tokens and evaluating the expression
-  var Parser;
+var Lexer;
+//Responsible for parsing the tokens and evaluating the expression
+var Parser;
 
-  var OPERATORS = {
-    '%':function(self, locals, a,b){return a(self, locals)%b(self, locals);},
-    '^':function(self, locals, a,b){return a(self, locals)^b(self, locals);},
-    //...
-  };</code></pre>
+var OPERATORS = {
+  '%':function(self, locals, a,b){return a(self, locals)%b(self, locals);},
+  '^':function(self, locals, a,b){return a(self, locals)^b(self, locals);},
+  //...
+};</code></pre>
 </div>

@@ -1,14 +1,12 @@
 <h3>Active Record AngularJS</h3>
 
-<pre lang="javascript"><code>
-  var User = $resource('/users/:id'),
-      user = new User({
-        name: 'foo',
-        age : 42
-      });
+<pre lang="javascript"><code>var User = $resource('/users/:id'),
+    user = new User({
+      name: 'foo',
+      age : 42
+    });
 
   user.$save();
 
-  User.get({ userid: userid });
-</code></pre>
+  User.get({ userid: userid });</code></pre>
 

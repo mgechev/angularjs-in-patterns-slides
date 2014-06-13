@@ -1,22 +1,20 @@
 <h3>Data Mapper AngularJS</h3>
 
 <div class="small">
-  <pre lang="javascript"><code>
-  app.factory('User', function ($q) {
-    function User(name, address, friends) {
-      this.name = name;
-      this.address = address;
-      this.friends = friends;
-    }
-    User.get = function (params) {
-      var user = $http.get('/user/' + params.id),
-          friends = $http.get('/friends/' + params.id);
-      $q.all([user, friends])
-      .then(function (user, friends) {
-        return new User(user.name, user.address, friends);
-      });
-    };
-    return User;
-  });
-  </code></pre>
+  <pre lang="javascript"><code>app.factory('User', function ($q) {
+  function User(name, address, friends) {
+    this.name = name;
+    this.address = address;
+    this.friends = friends;
+  }
+  User.get = function (params) {
+    var user = $http.get('/user/' + params.id),
+        friends = $http.get('/friends/' + params.id);
+    $q.all([user, friends])
+    .then(function (user, friends) {
+      return new User(user.name, user.address, friends);
+    });
+  };
+  return User;
+});</code></pre>
 </div>
