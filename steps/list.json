@@ -516,5 +516,33 @@
             "rotate-y": 0,
             "rotate-z": 90
         }
+    },
+    {
+        "uri": "page-controller-angularjs.html",
+        "id": "page-controller-angularjs",
+        "class": "step",
+        "data": {
+            "x": 111000,
+            "y": 0,
+            "z": 0,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
+    },
+    {
+        "uri": "others.html",
+        "id": "others",
+        "class": "step",
+        "data": {
+            "x": 114000,
+            "y": 0,
+            "z": 0,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
     }
 ]
