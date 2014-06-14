@@ -9,7 +9,7 @@
   <br>
   <pre lang="html"><code>&#x3C;div&#x3E;{{ name | uppercase }}&#x3C;/div&#x3E;</code></pre>
   <br>
-  <pre lang="javascript"><code>function MyCtrl(uppercaseFilter) {
+  <pre lang="javascript"><code>function MyCtrl($scope, uppercaseFilter) {
   $scope.name = uppercaseFilter('foo'); //FOO
 }</code>
   </pre>

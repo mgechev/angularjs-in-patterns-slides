@@ -2,16 +2,16 @@
 
 <div class="small">
   <pre lang="javascript"><code>app.factory('foo', function () {
-    function privateMember() {
-      //body...
-    }
-    function publicMember() {
-      //body...
-      privateMember();
-      //body
-    }
-    return {
-      publicMember: publicMember
-    };
-  });</code></pre>
+  function privateMember() {
+    //body...
+  }
+  function publicMember() {
+    //body...
+    privateMember();
+    //body
+  }
+  return {
+    publicMember: publicMember
+  };
+});</code></pre>
 </div>
